@@ -62,7 +62,7 @@ public class sanphamsieuthi implements Comparable<sanphamsieuthi> {
     
     @Override
     public String toString() {
-        return "sản phẩm [loại = " + loai + ", mã hàng = " + mahang + ", tên hàng hóa = " + tenhanghoa
+        return " [loại = " + loai + ", mã hàng = " + mahang + ", tên hàng hóa = " + tenhanghoa
                 + ", giá nhập " + gianhap + ", số lượng tồn kho" + soluongtonkho + ", ngày nhập kho" + ngaynhapkho + "]";
     }
 
@@ -87,7 +87,7 @@ public class sanphamsieuthi implements Comparable<sanphamsieuthi> {
         }
       // @Override
     public void inthongtinsieuthi() {
-        System.out.printf("│%11s│%19s│%11s│%8s$/Per│%8s piece│%18s│\n",getloai(),getmahang(),gettenhanghoa(),getgianhap(),getsoluongtonkho(),getngaynhapkho());
+        System.out.printf("loại"+ loai + "mã hàng" + mahang + "tên hàng hóa" + tenhanghoa + "giá nhập" + gianhap + " số lượng tồn kho" + soluongtonkho + "ngày nhập kho" + ngaynhapkho);
 
     }
         
